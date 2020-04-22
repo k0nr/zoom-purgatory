@@ -1,0 +1,288 @@
+<style>
+
+/* color samples week 4
+ * https://colors.lol/viscid
+ * viscid light lime green: #B9FF66
+ * built easter purple: #C071FE
+ * longitudinal slate blue: #5B7C99
+ * muttering dusty purple #825F87
+ * 
+*/
+ 
+/* Force Landscape Mode, the real method */
+
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+#wrapper { display:none; }
+#warning-message { display:block; }
+
+ }
+
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+
+
+        html {
+            height: 100%;
+            max-width: 100vw;    
+            padding: 0;
+            margin: 0;
+        }
+	
+/* Define keyframes */
+	
+            @keyframes spinround {
+           50% {transform: rotateY(-90deg);}
+           }
+            
+            @keyframes spinround2 {
+           50% {transform: rotateY(90deg);}
+           }
+		   
+		   @keyframes spit {
+		  50% {transform: rotateX(90deg);}
+		   }
+		   
+		   @-webkit-keyframes blinker {  
+		from { opacity: 1.0; }
+		to { opacity: 0.0; }
+		}
+		
+
+/* Define classes */		   
+	
+		.spit {
+		animation-name: spit;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		}
+		
+		.css3-blinker {
+		 -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2.5s;
+}
+
+.css3-blinker2 {
+		 -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2s;
+}
+  .playtitle {
+    padding-left: 36px
+    text-indent: -36px
+}
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+  
+
+/* youtube container for intro & outro */
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+/* Styling, etc */
+				
+            body {
+            height:100%;
+            padding: 0;
+            margin: 0;
+            background-color:  #555555;
+			font-family: monospace;
+			color:white;
+            cursor: url('images/cursor.cur'), default;
+            font-family: 'Share Tech Mono', monospace;
+			}
+			
+			p {
+			width: 70%;
+			position: relative;
+			left: 15%;
+			}
+			
+			pre {
+            font-family: 'Share Tech Mono', monospace;
+            }
+			
+						
+			h1 {
+            font-size:75px;
+            position: relative;
+            width: 70%;
+            left: 15%;
+		
+			}
+			
+			h2 {
+			text-align: center;
+			font-weight: bold;
+			font-size: 55px;
+            width: 70%;
+            left: 15%;
+			}
+			
+			h3 {
+			font-weight: bold;
+			color: black;
+			text-align: center;
+            
+			}
+			
+		
+			
+			h5 {
+			font-weight: bold;
+			color: black;
+			text-align: center;
+            font-size:14px;
+			}
+			
+			
+			
+			a:link {
+			color:#47f7b0;
+            text-decoration: none;
+			}
+			
+			a:visited {
+			color:#fcd40f;
+			}
+			
+			a:hover {
+			text-decoration: underline;
+			}
+			
+			img {
+                width: 100%;
+            }
+			
+/* Define & style divs */    
+
+
+    #menu-meat {
+    min-height:100vh;
+    width:80vw;
+    left:10vw;
+    position:relative;
+    }
+    
+    #menu-wrapper {
+    height:120vh;
+    width:100%;
+    background-color:black;
+    }
+    
+    #intro-vid {
+    position:relative;
+    width:60%;
+    left:20%;
+    }
+     
+    #ascii-header {
+    background-color: black;
+    width:100vh;
+    
+    }
+    
+    #headshots {
+    background-color: #fcd40f;
+    min-height: 120vh;
+    text-align:right;
+    }
+    
+    #clicktheplays {
+    background-color: #5B7C99;
+    min-height: 25vh;
+    text-align: center;
+    color: #B9FF66;
+    width: 100%;
+    font-size: 5vh;
+    color: white;
+    text-align: left;
+    }
+			
+    #playtitles {
+		position: relative;
+		left:15%;
+		width:70%;
+		text-align:left;
+        font-size: 20px;
+		}
+		
+    #tasty {
+        height:120vh;
+        width:100%;
+        position: relative;
+        background-color: #fcc100;
+        font-size: 80px;
+        color: #c100fc;
+        text-align: center;
+    }
+        
+    #credits {
+        background-color: #230399;
+        width:100%;
+        position:relative;
+        min-height: 110vh;
+
+        
+    }
+   
+	
+    #contact {
+	  position: fixed;
+    background-color:  #AA00AA;
+	bottom: 0;
+	right: 0;
+	border: 10px solid black;
+    width: 200px;
+    }
+    
+    #supported {
+    color: #00AA00;
+    background-color: black;
+    width: 100%;
+    min-height: 110vh;
+
+    }
+        
+    #sub-supported {
+    width:60%;
+    left:20%;
+    padding-top: 40vh;
+    position:relative;
+    }
+   
+    
+    
+    
+    
+	</style>

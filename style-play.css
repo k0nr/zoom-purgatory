@@ -1,0 +1,102 @@
+            html {
+            size:100%;
+            }
+            
+			body {
+            background-color: black;
+            font-family: 'Sorts Mill Goudy', serif;
+			color:white;
+            cursor: url('images/cursor.cur'), default;
+
+			
+			}
+		
+				a:link {
+			color:white;
+			}
+			
+			a:visited {
+			color: white;
+			}
+			
+			a:hover {
+			text-decoration: underline;
+			}
+		
+			
+	#linx {
+		position: relative;
+		left:15%;
+		width:70%;
+		text-align:center;
+		}
+		
+	#menu {
+	  position: fixed;
+    background-color:  black;
+    color: white;
+    text-align:center;
+	bottom: 0;
+	right: 0;
+	border: 10px solid black;
+    width: 200px;
+    font-size: 20px;
+    }
+    
+    #credit {
+    position:fixed;
+    bottom: 0;
+    right: 260px;
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', monospace;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: 8px solid black; 
+    }
+    
+    .title {
+		text-align: center;
+		font-weight: bold;
+		font-size: 28px;
+		text-decoration: underline;
+		background-color: black;  
+		position:relative;
+		padding-top: 15px;
+        padding-bottom: 15px;
+        width:50%;
+        left:25%;
+    }
+    
+		
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+top:0;
+left:20%;
+width:60%;
+height:60%;
+}
+
+.highlight {
+    background-color:black;
+    
+}
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+	
+}
