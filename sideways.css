@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+html {
+        cursor: url('images/cursor.cur'), default;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -102,6 +106,9 @@ body {
   display:none;
 }
 
+.headshot {
+}
+    
 
 .youtube-responsive-container {
 position:relative;
