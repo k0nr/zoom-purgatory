@@ -122,7 +122,7 @@ body {
     background-color: black;
     height: 28px;
     bottom: 0px;
-    width: 800vw;
+    width: 780vw;
  
 }
 
@@ -135,8 +135,9 @@ body {
         animation-name: scroll-left;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        animation-duration: 100s;
+        animation-duration: 300s;
         font-family: sans-serif;
+        overflow: hidden;
         
     }
     
