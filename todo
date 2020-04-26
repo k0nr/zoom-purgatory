@@ -5,6 +5,7 @@ X - color all the backgrounds
 X - place headshots
 x - lay out the titles
 - credits & signature
+ - actually place the uploaded plays
 
 - contact, donate, subscribe links
 
@@ -13,9 +14,14 @@ x - header, meta, favicon, cursor
 x - the play pages
 - the play styles
 
-- bottom tickers (steal from textsfromshannon)
+x - bottom tickers (steal from textsfromshannon)
 
 - ending... slope up, down? far up and out?
 
   
   
+  
+   <a href="https://neofuturists.secure.force.com/donate/?dfId=a0yU0000000mzshIAA" target="_blank" class="contact"><strong>D O N A T E</strong></a>
+                <a href="https://www.patreon.com/theneofuturists" target="_blank" class="contact">BECOME A PATRON</a>
+                <a href="mailto:engagement@neofuturists.org" class="contact">CONTACT</a>
+                <a href="https://www.neofuturists.org" target="_blank" class="contact">NEOS HOME</a>
