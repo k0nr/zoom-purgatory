@@ -61,6 +61,10 @@ body {
     width: 100vw;
 }
 
+.nine {
+    width: 100vw;
+}
+
 .line {
     width: 100%;
     position: absolute;
@@ -84,6 +88,7 @@ body {
     z-index: 99;
     color: white;
     font-size: 18px;
+    overflow: auto;
 }
 
 .playlink {
@@ -104,6 +109,15 @@ body {
 ::-webkit-scrollbar {
   display:none;
 }
+
+.contact {
+	  position: fixed;
+    background-color:  #AA00AA;
+	top: 0;
+	right: 0;
+	border: 10px solid black;
+    width: 200px;
+    }
 
 .headshot {
 }
