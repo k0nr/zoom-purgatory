@@ -84,11 +84,14 @@ body {
     position: absolute;
     height: 100%;
     width: 40%;
+    top: 18px;
    /* background-color: rgba(0,0,0,0.5);*/
     z-index: 99;
     color: white;
     font-size: 18px;
     overflow: auto;
+    text-align: left;
+    line-height: 1.75;
 }
 
 .playlink {
@@ -152,7 +155,7 @@ height:100%;
 			}
 			
 			a:visited {
-			color:#47f7b0;
+			color:#7c7c7c;
 			}
 			
 			a:hover {
