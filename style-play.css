@@ -4,7 +4,7 @@
             
 			body {
             background-color: black;
-            font-family: 'Sorts Mill Goudy', serif;
+            font-family: serif;
 			color:white;
             cursor: url('images/cursor.cur'), default;
 
@@ -43,12 +43,12 @@
     font-size: 20px;
     }
     
-    #credit {
+    .credit {
     position:fixed;
     bottom: 0;
     right: 260px;
     text-align: center;
-    font-family: 'Sorts Mill Goudy', monospace;
+    font-family: serif;
     font-size: 12px;
     background-color: black;
     color: white;

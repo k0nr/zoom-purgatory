@@ -5,6 +5,27 @@
     padding: 0px;
 }
 
+/* Force Landscape Mode, the real method */
+
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+#wrapper { display:none; }
+#warning-message { display:block; }
+
+ }
+
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+
 html {
         cursor: url('images/cursor.cur'), default;
 }
